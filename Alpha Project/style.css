@@ -1,0 +1,254 @@
+body{
+font-family: 'Noto Sans TC', sans-serif;
+background: url(./images/background\ image.jpg);
+background-repeat:no-repeat;
+background-size: 100% 690px;
+}
+#HeaderSection{
+    color: white;
+}
+#HeaderSection div h1 span{
+    font-weight: 100;
+}
+#HeaderSection div h1{
+    font-size: 17px;
+    margin: 19px 0px 0px 15px;
+}
+#HeaderSection div{
+    display: inline-block;
+}
+#OptionDiv ul li{
+    font-size: 18px;
+    display: inline-block;
+    margin-right: 40px;
+}
+#OptionDiv{
+    float: right;
+}
+.fa-angle-down{
+    margin-right: 6px;
+    font-size: 900;
+}
+#Sign-Up{
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px 15px ;
+}
+#BodySection{
+    margin-top: 120px;
+    text-align: center;
+    color: white;
+}
+#BodySection h1{
+    font-size: 57px;
+}
+#BodySection p{
+    font-size: 21px;
+    margin-top: -28px;
+}
+#BodySection div button:nth-child(1){
+    background: white;
+    border: 0px;
+    border-radius: 5px;
+    padding: 20px 70px;
+    color: #77726e;
+}
+#BodySection div button:nth-child(2){
+    background: transparent;
+    border: 2px solid #bab9b6;
+    border-radius: 5px;
+    padding: 15px 65px;
+    font-size: 16px;
+    color: white;
+    margin-left: 27px;
+
+}
+#DescripSection{
+    background-color: white;
+    width: 69%;
+    text-align: center;
+    margin: 0 auto;
+    color: #7b7b7b;
+    margin-top: 135px;
+    border-radius: 6px;
+
+}
+#DescripSection h1{
+    font-size: 57px;
+    padding-top: 75px;
+    margin-bottom: 19px;
+}
+#DescripSection p{
+    font-size: 22px;
+    padding: 35px 0px;
+    border-top: 2px solid #7b7b7b;
+    display: inline-block;
+}
+#DescripSection img{
+    width: 100%;
+    border-radius: 0px 0px 6px 6px;
+}
+/* IconSection ends here */
+#IconSection{
+    width: 69%;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 44px;
+    border-radius: 10px;
+}
+#IconSection div h1{
+    font-size: 30px;
+    color: #7b7b7b;
+}
+#IconSection div{
+    width: 49%;
+    display: inline-block;
+    text-align: center;
+}
+#IconSection div p{
+    font-size: 18px;
+    color: #7b7b7b;
+}
+.fa-bolt{
+    background-color: #e89980;
+    font-size: 53px;
+    color: white;
+    padding: 17px 33px;
+    border-radius: 100%;
+    margin: 67px 0px 15px 0px;
+}
+.fa-area-chart{
+    background-color: #7fcdb8;
+    font-size: 40px;
+    color: white;
+    padding: 23px 29px;
+    border-radius: 100%;
+    margin: 67px 0px 15px 0px;
+}
+.fa-cloud{
+    background-color: #90b0ba;
+    font-size: 45px;
+    color: white;
+    padding: 25px 25px;
+    border-radius: 100%;
+    margin: 67px 0px 15px 0px;
+}
+.fa-lock{
+    background-color: #e5cb95;
+    font-size: 53px;
+    color: white;
+    padding: 21px 34px;
+    border-radius: 100%;
+    margin: 67px 0px 15px 0px;
+}
+#IconDiv1{
+    border-right: 1px solid #7b7b7b;
+    margin: 0px 0px 0px -1px;
+}
+#IconDiv2{
+    border-bottom: 1px solid #7b7b7b;
+    margin: 0px 0px 0px -5px;
+}
+#IconDiv3{
+    border-top: 1px solid #7b7b7b;
+}
+#IconDiv4{
+    border-left: 1px solid #7b7b7b;
+    margin: 0px 0px 0px -4px;
+}
+
+
+#ImgSection{
+    width: 69%;
+    margin: 0 auto;
+    margin-top: 49px;
+}
+#ImgSection div{
+    width: 48.5%;
+    background-color: white;
+    display: inline-block;
+    border-radius: 6px;
+    text-align: center;
+    color: #7b7b7b;
+}
+#ImgSection div img{
+    width: 100%;
+    border-radius: 6px 6px 0px 0px;
+}
+#ImgDiv{
+    margin-right: 28px;
+}
+#ImgSection div h1{
+    font-size: 29px;
+}
+#ImgSection div p{
+    font-size: 18px;
+}
+#ImgSection div button{
+    font-size: 16px;
+    padding: 15px 30px;
+    margin: 20px 0px 45px 0px;
+    border: 2px solid #eaeaea;
+    border-radius: 5px;
+    background-color: white;
+    color: #7b7b7b;
+}
+#FooterSection{
+    margin-top: 100px;
+}
+#FooterDiv1{
+    text-align: center;
+    background-color: #e89980;
+    color: white;
+    height: 300px;
+    padding-bottom: 40px;
+}
+#FooterDiv1 h1{
+    font-size: 38px;
+    font-weight: 100;
+    padding-top: 70px;
+}
+#FooterDiv1 p{
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+#FooterDiv1 button{
+    padding: 15px 50px;
+    border: none;
+    color: #e89980;
+    background-color: white;
+    font-size: 17px;
+    border-radius: 5px;
+}
+#FooterDiv1 input{
+    padding: 20px 74px 20px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #eba893;
+    margin-right: 30px;
+    color: white;
+}
+#FooterDiv1 input::placeholder{
+    color: white;
+}
+#FooterDiv2 ul li{
+    display: inline-block;
+    font-size: 16px;
+    padding: 0px 15px;
+    border-right: 1px solid #c6c6c6;
+    margin-top: 30px;
+}
+#FooterDiv2{
+    text-align: center;
+    height: 250px;
+    padding-top: 115px;
+    color: #c6c6c6;
+}
+#FooterDiv2 i{
+    font-size: 35px;
+    margin: 0px 10px;
+}
+#FooterDiv2 ul li:nth-child(3){
+    border: none;
+}
